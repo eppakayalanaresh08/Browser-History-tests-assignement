@@ -1,0 +1,79 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+}
+
+.time-accessed {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container-title {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-domain {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .title-domain {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.image-url {
+  padding-right: 20px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 10px;
+}
+
+.domain-url {
+  color: #475569;
+  font-size: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+.button-delete {
+  background-color: transparent;
+  border: none;
+}
